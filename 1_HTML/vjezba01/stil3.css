@@ -1,0 +1,64 @@
+body{background-color: #e7e7e2;}
+
+h1{color: #2d1d66;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: left;
+ border: 2;
+    height: 30px;
+    
+}
+  
+
+h2{color: #FF6600;}
+
+#sadrzaj h7 {
+    color: hsl(0, 0%, 2%);
+    visibility: visible;
+   font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;}
+    
+   
+    
+   
+    
+    .crvenibroj {color: #FF6600;}
+   
+
+
+    .kutija { background-color: #ffffff;
+   
+    padding: 25px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    ul {line-height: 30px;¸}
+    ul {list-style: none; }
+    ul li:before{content: '✅';}
+
+     .podcrtano {
+    
+    text-decoration: underline;
+    text-decoration-color: #FF6600;
+
+    
+
+    }
+
+    .siva {
+   background-color: rgb(247, 241, 241)
+
+      }
+
+       .FF {color: #FF6600;}
+
+
+.kom {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 30px;
+    color: #aaa;
+  
+}
+
+    
+  
