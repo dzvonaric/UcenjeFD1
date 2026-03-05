@@ -35,7 +35,7 @@ body{
 
     border-radius: 3%;
     overflow: hidden;
-    box-shadow: 0 0px 5px rgba(0, 0, 0, 5);
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 2);
 
     
 
@@ -99,6 +99,9 @@ ul li::before{
   margin-right: 55px;
   margin-top: 5px;
 }
-  
+
+mark{
+    background: hwb(51 75% 13%);
 }
+
 }

@@ -1,0 +1,188 @@
+:root{
+    --primarna-boja: #073a18;
+    --naglasena-boja: #701313;
+    --pozadina-svijetlo: #eef5f1ad;
+    --boja-layer: #1d92e0ad;
+}
+
+body{
+    background-color: var(--pozadina-svijetlo);
+    }
+
+    .container{
+
+    
+
+    width: 100%;
+    max-width: 700px;
+    min-width: 300px;
+    inline-size: 100%;
+    max-inline-size: 700px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    margin: 40px auto;
+    border-radius: 8px;
+
+  
+    
+    
+    
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+    box-sizing: content-box;
+
+    border-radius: 3%;
+    overflow: hidden;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 5);
+
+    
+
+    outline-style: inset;
+    outline-width: 0px;
+    outline-color: var(--naglasena-boja);
+    mask-border-outset: var(--naglasena-boja);
+    outline-offset: 10px;
+
+    .h1 {color: rgb(46, 58, 58);
+        text-shadow: 0 0px 1px rgba(0, 0, 0, 5);
+        padding-right: 22%;
+        padding-left: 22%;
+    }
+
+    .veliko-slovo {
+        font-size: 1.3em;
+        line-height: 1;
+        
+    }
+
+    .opis {
+        color:#7e817e; ;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
+    hr {
+
+  border-top: 2px solid hsl(41, 89%, 52%);
+  
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 5px;
+}
+
+    mark {
+        background-color: hsl(47, 53%, 70%);
+    }
+
+    .p1{
+        padding-right: 5%;
+        padding-left: 5%;
+
+    }
+
+    .p2{
+        padding-right: 5%;
+        padding-left: 5%;
+
+
+   }
+   .p5 {color: hsl(24, 89%, 50%);}
+
+   
+    .p3{
+        padding-right: 5%;
+        padding-left: 5%;
+
+    }
+    
+
+    figure {
+      
+    text-align: center;
+    background-color: oklab(91.876% -0.00834 0.00156);
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    
+      
+}
+   .figure5 {
+      
+    background-color: oklab(91.876% -0.00834 0.00156);
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+      
+}
+
+}
+
+figure img {
+    image-orientation: flip;
+        width: 80%;
+    max-width: 800px;
+    margin-top: 10px;
+        margin-left: 5px;
+    margin-right: 5px;
+   
+
+    
+}
+
+figcaption {
+    font-size: 1em;
+    color: #666;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+
+section{
+
+    margin: 0px;
+     padding: 00px;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    border-inline-start: 4px solid var(--boja-layer);
+    padding-inline-start: 50px;
+    margin-bottom: 40px;
+     
+    
+     
+   
+    
+
+
+    }
+
+    strong {
+       
+        color: rgb(211, 108, 12);
+    }
+
+    strong1{
+
+        color: rgb(36, 121, 233);
+    }
+
+    .figure1{
+        color: #1b7013;
+        box-shadow: #701313;
+    }
+
+}
