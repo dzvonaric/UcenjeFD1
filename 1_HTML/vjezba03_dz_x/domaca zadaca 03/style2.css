@@ -1,0 +1,34 @@
+
+body{
+     background: #8F70CE;
+background: -moz-linear-gradient(-45deg, #8F70CE 0%, #AD87CB 57%, #111675 100%);
+background: -webkit-linear-gradient(-45deg, #8F70CE 0%, #AD87CB 57%, #111675 100%);
+background: linear-gradient(135deg, #8F70CE 0%, #AD87CB 57%, #111675 100%);
+}
+
+section{
+    display: grid;
+    grid-template-areas: 
+    "a a a a a"
+    "b c c c d"
+    "e e e e e"
+    ;
+
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.a{grid-area: a;}
+.b{grid-area: b;}
+.c{grid-area: c;}
+.d{grid-area: d;}
+.e{grid-area: e;}
+
+div{
+background-color: aliceblue;
+border: 5px solid blue;
+border-radius: 1rem;
+padding: 2rem;
+font-size: 2rem;
+
+}
